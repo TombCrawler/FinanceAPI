@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Quoted
+{% endblock %}
+
+{% block main %}
+            A share of {{ name }} ({{ symbol }}) costs  {{ price }}
+
+   <div class="mb-3">
+       <a class="navbar-brand" href="/"><span class="green">Back to Main</span></a>
+   </div>
+{% endblock %}
